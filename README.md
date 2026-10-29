@@ -1,20 +1,30 @@
-## 🧭Description
-A simple Snake game built with HTML5 Canvas and JavaScript. It saves the highScore in local storage.
+# Snake Game 🐍
 
-## 🎮 Features
-- Arrow keys and WASD controls
-- Food generation and score tracking
-- Highscore saved with `localStorage`
-- Responsive canvas for mobile devices
+The classic Snake on an HTML5 canvas: eat the food, grow, and avoid the walls and your own tail.
 
-## 🚀 How to Play
+**Live demo:** https://mccprogrammer.github.io/simple-snake-game/
 
-1. Open `index.html` in your browser
-2. Press the **Start Game** button
-3. Use arrow keys or tap the mobile buttons to move
-4. Eat the red squares to grow the snake
-5. Avoid walls and yourself!
+![Snake Game screenshot](docs/screenshot.png)
 
-## 📦 Installation
+## Features
 
-No installation required! Just open the `index.html` file in any modern browser.
+- Arrow keys or WASD, plus on-screen buttons on phones
+- Score and high score, the high score saved in `localStorage`
+- Responsive canvas
+
+## Run it locally
+
+No build step: clone the repo and open `index.html` in a browser.
+
+```bash
+git clone https://github.com/MCCProgrammer/simple-snake-game.git
+open simple-snake-game/index.html
+```
+
+## Built with
+
+HTML5 Canvas, CSS and plain JavaScript.
+
+---
+
+One of my first web projects. More of my work at [mccprogrammer.com/projects](https://mccprogrammer.com/projects).
